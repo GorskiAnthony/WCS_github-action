@@ -1,0 +1,16 @@
+{
+	"name": "githubaction",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Les github-actions sont des scripts qui permettent d'automatiser des tâches sur github.",
+	"main": "index.js",
+	"scripts": {
+		"test": "node ./tests/html-validator.js"
+	},
+	"keywords": [],
+	"author": "Anthony gorski",
+	"license": "ISC",
+	"dependencies": {
+		"w3c-html-validator": "^1.3.1"
+	}
+}
