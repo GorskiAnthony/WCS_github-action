@@ -16,7 +16,7 @@ Les actions sont des scripts qui sont exécutés sur le serveur de github. Il y 
 
 ## Les workflows
 
-Les workflows sont des séquences d'actions. Ils sont définis dans un fichier `.yml` qui se trouve dans le dossier `.github/workflows`. Il est possible de définir plusieurs workflows dans un même fichier.
+Les workflows sont des séquences d'actions. Ils sont définis dans un fichier `.yml` qui se trouve dans le dossier `.github/workflows` en racine du répos. Il est possible de définir plusieurs workflows dans un même fichier.
 
 ## Les événements
 
@@ -140,3 +140,16 @@ Github nous met à disposition des variables :
 -   `${{ github.sha }}` : identifiant du commit
 -   `${{ github.ref }}` : nom de la branche
 -   `${{ github.event_name }}` : nom de l'événement
+
+## Les secrets
+
+Les secrets sont des variables qui sont stockées sur le serveur de github. Il est possible de les utiliser dans les workflows.
+
+Pour créer un secret, il faut aller dans les paramètres du dépôt, puis dans l'onglet `Secrets`.
+
+## Et voilà !
+
+Vous êtes actuellement sur le repo qui contient le code de ce cours.
+Vous pouvez retrouver toutes les informations :smile:
+
+![actions](./assets/5.png)
